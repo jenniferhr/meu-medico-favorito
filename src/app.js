@@ -1,5 +1,8 @@
 const express = require("express")
 const app = express()
+const index = require("./routes/index")
+const doctors = require("./routes/doctors")
+
 
 require("./models/Doctor.js")
 
@@ -26,5 +29,8 @@ app.options("/*", (req, res) => {
     );
     res.send("send some thing whatever")
 })
+
+app.use("/", index)
+app.use("/doctors", doctors)
 
 module.exports = app
