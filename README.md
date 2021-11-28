@@ -1,2 +1,9 @@
 # meu-medico-favorito
-Segunda API REST criada no bootcamp Women Can Code. O sistema permite adicionar um médico, listar todos, listar só um, atualizar as informações de um médico, adicionar ou remover como favorito, e deletar um médico. O deploy da API foi feito no Heroku e o link dela é https://meu-medico-favorito-jen.herokuapp.com/
+
+Segunda API REST criada no bootcamp **Women Can Code**, com Node.Js. O sistema, chamado Meu Médico Favorito, permite:
+- Adicionar um médico
+- Listar todos os médicos
+- Listar só um médico
+- Atualizar as informações de um médico
+- Atualizar o status de favorito de um médico
+- Deletar um médico do banco de dados
